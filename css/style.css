@@ -415,13 +415,20 @@ section {
 /* Contact Section */
 .contact-wrapper {
     display: grid;
-    grid-template-columns: 1.5fr 1fr;
+    grid-template-columns: 1fr 1fr;
     gap: 40px;
     align-items: start;
 }
 
 @media (max-width: 900px) {
     .contact-wrapper { grid-template-columns: 1fr; }
+}
+
+.contact-info {
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
 }
 
 .form-title {
