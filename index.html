@@ -34,7 +34,7 @@
     content="Building scalable web applications and intelligent data solutions with Python.">
   <meta name="twitter:image" content="https://raju-kukatla.vercel.app/images/hero_bg.jpg">
   <!-- Favicon -->
-  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <link rel="icon" type="image/jpeg" href="images/favicon.jpeg">
 
   <!-- Styles -->
   <link rel="stylesheet" href="css/style.css">
@@ -72,7 +72,7 @@
   <header id="home">
     <div class="container">
       <div class="hero-profile reveal">
-        <img src="images/profile.png" alt="Raju Kukatla Profile" decoding="async" width="152" height="152">
+        <img src="images/male_profile.png" alt="Raju Kukatla Profile" decoding="async" width="152" height="152">
       </div>
       <h1 class="name reveal">Raju Kukatla</h1>
       <div class="typing-container reveal">
@@ -95,12 +95,12 @@
       <h2 class="section-title">About Me</h2>
       <div class="about-grid">
         <div class="about-content">
-          <p>I am a Python Developer with a passion for transforming complex data into actionable insights and building
-            scalable web architectures. With a strong foundation in Python and its various libraries, I specialize in
-            creating backends that are efficient, secure, and easy to maintain.</p>
-          <p>Whether it's developing sophisticated web scrapers, building REST APIs with Django, or crafting predictive
-            models, I focus on delivering high-quality code that solves real-world problems.</p>
-          <a href="mailto:kukatlaraju417@gmail.com" class="btn btn-secondary">Get In Touch</a>
+          <p>As an experienced Python Full-Stack Developer, I specialize in engineering scalable web architectures, intelligent data solutions, and robust backend systems. With a deep expertise in Python, Django, and modern frontend technologies, I build end-to-end applications that are performant, secure, and maintainable.</p>
+          <p>I have a proven track record of designing sophisticated REST APIs, developing complex web scrapers, and deploying production-ready platforms that drive business value and solve complex real-world challenges.</p>
+          <div class="about-actions" style="display: flex; gap: 16px; margin-top: 24px; flex-wrap: wrap;">
+            <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+            <a href="#" class="btn btn-primary" download="Raju_Kukatla_Resume.pdf">Download Resume <i class="fa-solid fa-download" style="margin-left: 8px;"></i></a>
+          </div>
         </div>
         <aside class="glass-card quick-info-card">
           <div class="info-item">
@@ -293,37 +293,62 @@
 
     <!-- Contact Section -->
     <section id="contact" class="reveal">
-      <h2 class="section-title">Connect With Me</h2>
-      <div class="contact-grid">
-        <a href="mailto:kukatlaraju417@gmail.com" class="contact-link" aria-label="Email">
-          <i class="fa-solid fa-envelope" aria-hidden="true"></i>
-          <span>Email</span>
-        </a>
-        <a href="https://www.linkedin.com/company/portifystudio" target="_blank" rel="noopener noreferrer"
-          class="contact-link" aria-label="LinkedIn">
-          <i class="fa-brands fa-linkedin" aria-hidden="true"></i>
-          <span>LinkedIn</span>
-        </a>
-        <a href="https://github.com/portifystudio" target="_blank" rel="noopener noreferrer" class="contact-link"
-          aria-label="GitHub">
-          <i class="fa-brands fa-github" aria-hidden="true"></i>
-          <span>GitHub</span>
-        </a>
-        <a href="https://www.instagram.com/portifystudio" target="_blank" rel="noopener noreferrer" class="contact-link"
-          aria-label="Instagram">
-          <i class="fa-brands fa-instagram" aria-hidden="true"></i>
-          <span>Instagram</span>
-        </a>
-        <a href="https://www.youtube.com/@PortifyStudio" target="_blank" rel="noopener noreferrer" class="contact-link"
-          aria-label="YouTube">
-          <i class="fa-brands fa-youtube" aria-hidden="true"></i>
-          <span>YouTube</span>
-        </a>
-        <a href="https://x.com/PortifyStudio" target="_blank" rel="noopener noreferrer" class="contact-link"
-          aria-label="Twitter">
-          <i class="fa-brands fa-x-twitter" aria-hidden="true"></i>
-          <span>Twitter</span>
-        </a>
+      <h2 class="section-title">Get In Touch</h2>
+      <div class="contact-wrapper">
+        <div class="contact-form-container glass-card">
+          <h3 class="form-title">Send a Message</h3>
+          <form class="contact-form" action="#" method="POST"
+            onsubmit="event.preventDefault(); alert('Message sent successfully!');">
+            <div class="form-group">
+              <label for="name">Name</label>
+              <input type="text" id="name" name="name" required placeholder="John Doe">
+            </div>
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" required placeholder="john@example.com">
+            </div>
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" rows="5" required placeholder="How can I help you?"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary submit-btn">Send Message <i
+                class="fa-solid fa-paper-plane"></i></button>
+          </form>
+        </div>
+        <div class="contact-info">
+          <h3 class="form-title">Connect With Me</h3>
+          <div class="contact-grid">
+            <a href="mailto:kukatlaraju417@gmail.com" class="contact-link" aria-label="Email">
+              <i class="fa-solid fa-envelope" aria-hidden="true"></i>
+              <span>Email</span>
+            </a>
+            <a href="https://www.linkedin.com/company/portifystudio" target="_blank" rel="noopener noreferrer"
+              class="contact-link" aria-label="LinkedIn">
+              <i class="fa-brands fa-linkedin" aria-hidden="true"></i>
+              <span>LinkedIn</span>
+            </a>
+            <a href="https://github.com/portifystudio" target="_blank" rel="noopener noreferrer" class="contact-link"
+              aria-label="GitHub">
+              <i class="fa-brands fa-github" aria-hidden="true"></i>
+              <span>GitHub</span>
+            </a>
+            <a href="https://www.instagram.com/portifystudio" target="_blank" rel="noopener noreferrer"
+              class="contact-link" aria-label="Instagram">
+              <i class="fa-brands fa-instagram" aria-hidden="true"></i>
+              <span>Instagram</span>
+            </a>
+            <a href="https://www.youtube.com/@PortifyStudio" target="_blank" rel="noopener noreferrer"
+              class="contact-link" aria-label="YouTube">
+              <i class="fa-brands fa-youtube" aria-hidden="true"></i>
+              <span>YouTube</span>
+            </a>
+            <a href="https://x.com/PortifyStudio" target="_blank" rel="noopener noreferrer" class="contact-link"
+              aria-label="Twitter">
+              <i class="fa-brands fa-x-twitter" aria-hidden="true"></i>
+              <span>Twitter</span>
+            </a>
+          </div>
+        </div>
       </div>
     </section>
 
